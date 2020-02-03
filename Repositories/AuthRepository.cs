@@ -4,11 +4,11 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using BaseProject.Infra.Db.Scripts;
 using BaseProject.Infra.Interfaces;
-using BaseProject.Infra.Security;
 using BaseSecurity.Models;
 using Dapper;
 using Interfaces;
 using Microsoft.IdentityModel.Tokens;
+using Security;
 
 namespace Repositories
 {
