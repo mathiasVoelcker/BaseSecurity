@@ -1,4 +1,4 @@
-namespace Security
+namespace BaseSecurity.Security
 {
     public class TokenConfiguration
     {

@@ -1,6 +1,6 @@
 using System.Data.SqlClient;
 
-namespace BaseProject.Infra.Interfaces
+namespace BaseSecurity.Interfaces
 {
     public interface IDbSession
     {

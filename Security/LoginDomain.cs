@@ -4,7 +4,7 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Security
+namespace BaseSecurity.Security
 {
     public static class LoginDomain
     {

@@ -1,7 +1,7 @@
 using System.Data.SqlClient;
-using BaseProject.Infra.Interfaces;
+using BaseSecurity.Interfaces;
 
-namespace Repositories
+namespace BaseSecurity.Repositories
 {
     public abstract class BaseRepository
     {

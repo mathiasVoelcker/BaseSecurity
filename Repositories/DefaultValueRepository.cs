@@ -1,13 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using BaseProject.Infra.Db.Scripts;
-using BaseProject.Infra.Interfaces;
+using BaseSecurity.Db.Scripts;
+using BaseSecurity.Interfaces;
 using BaseSecurity.Models;
 using Dapper;
-using Interfaces;
 
-namespace Repositories
+namespace BaseSecurity.Repositories
 {
     public class DefaultValueRepository : BaseRepository, IDefaultValueRepository
     {

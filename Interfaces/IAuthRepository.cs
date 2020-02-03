@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using BaseSecurity.Models;
 
-namespace Interfaces
+namespace BaseSecurity.Interfaces
 {
     public interface IAuthRepository
     {

@@ -2,15 +2,14 @@ using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using BaseProject.Infra.Db.Scripts;
-using BaseProject.Infra.Interfaces;
+using BaseSecurity.Db.Scripts;
+using BaseSecurity.Interfaces;
 using BaseSecurity.Models;
+using BaseSecurity.Security;
 using Dapper;
-using Interfaces;
 using Microsoft.IdentityModel.Tokens;
-using Security;
 
-namespace Repositories
+namespace BaseSecurity.Repositories
 {
     public class AuthRepository : BaseRepository, IAuthRepository
     {

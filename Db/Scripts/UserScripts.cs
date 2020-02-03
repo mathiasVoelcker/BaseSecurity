@@ -1,4 +1,4 @@
-namespace BaseProject.Infra.Db.Scripts
+namespace BaseSecurity.Db.Scripts
 {
     public static class UserScripts
     {

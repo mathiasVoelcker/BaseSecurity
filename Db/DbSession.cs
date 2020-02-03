@@ -1,7 +1,7 @@
 using System.Data.SqlClient;
-using BaseProject.Infra.Interfaces;
+using BaseSecurity.Interfaces;
 
-namespace BaseProject.Infra.Db
+namespace BaseSecurity.Db
 {
     public class DbSession : IDbSession
     {
