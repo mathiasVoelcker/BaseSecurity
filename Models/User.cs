@@ -8,6 +8,6 @@ namespace BaseSecurity.Models
 
         public byte[] Password { get; set; }
 
-        public byte[] PasswordHash { get; set; }
+        public byte[] Salt { get; set; }
     }
 }

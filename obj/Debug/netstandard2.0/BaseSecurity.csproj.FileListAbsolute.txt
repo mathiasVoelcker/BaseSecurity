@@ -1,0 +1,8 @@
+/Users/mathiasvoelcker/Desktop/Developer/C#/PokemonCalculator/PokemonSimulator/BaseSecurity/bin/Debug/netstandard2.0/BaseSecurity.deps.json
+/Users/mathiasvoelcker/Desktop/Developer/C#/PokemonCalculator/PokemonSimulator/BaseSecurity/bin/Debug/netstandard2.0/BaseSecurity.dll
+/Users/mathiasvoelcker/Desktop/Developer/C#/PokemonCalculator/PokemonSimulator/BaseSecurity/bin/Debug/netstandard2.0/BaseSecurity.pdb
+/Users/mathiasvoelcker/Desktop/Developer/C#/PokemonCalculator/PokemonSimulator/BaseSecurity/obj/Debug/netstandard2.0/BaseSecurity.csprojAssemblyReference.cache
+/Users/mathiasvoelcker/Desktop/Developer/C#/PokemonCalculator/PokemonSimulator/BaseSecurity/obj/Debug/netstandard2.0/BaseSecurity.AssemblyInfoInputs.cache
+/Users/mathiasvoelcker/Desktop/Developer/C#/PokemonCalculator/PokemonSimulator/BaseSecurity/obj/Debug/netstandard2.0/BaseSecurity.AssemblyInfo.cs
+/Users/mathiasvoelcker/Desktop/Developer/C#/PokemonCalculator/PokemonSimulator/BaseSecurity/obj/Debug/netstandard2.0/BaseSecurity.dll
+/Users/mathiasvoelcker/Desktop/Developer/C#/PokemonCalculator/PokemonSimulator/BaseSecurity/obj/Debug/netstandard2.0/BaseSecurity.pdb
