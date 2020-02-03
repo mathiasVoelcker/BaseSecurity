@@ -1,4 +1,4 @@
-namespace BaseProject.Infra.Security
+namespace Security
 {
     public class TokenConfiguration
     {
