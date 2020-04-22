@@ -1,5 +1,6 @@
 using System;
 using System.IdentityModel.Tokens.Jwt;
+using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using BaseSecurity.Db.Scripts;
@@ -7,6 +8,7 @@ using BaseSecurity.Interfaces;
 using BaseSecurity.Models;
 using BaseSecurity.Security;
 using Dapper;
+using Extensions.MV;
 using Microsoft.IdentityModel.Tokens;
 
 namespace BaseSecurity.Repositories
@@ -53,11 +55,6 @@ namespace BaseSecurity.Repositories
             return tokenHandler.WriteToken(token);
         }
 
-        public Task<User> Login(string username, string password)
-        {
-            throw new System.NotImplementedException();
-        }
-
         public async Task<User> Register(User user)
         {
             using (var connection = CreateConnection()) {
@@ -66,9 +63,19 @@ namespace BaseSecurity.Repositories
             return user;
         }
 
-        public Task<bool> UserExists(string username)
+        public int GetUserIdFromToken(string token)
         {
-            throw new System.NotImplementedException();
+            try 
+            {
+                var tokenHandler = new JwtSecurityTokenHandler();
+                var tokenData = tokenHandler.ReadJwtToken(token);
+                var userId = tokenData.Claims.AsList().FirstOrDefault(x => x.Type == "nameid").Value;
+                return userId.ToInt();
+            }
+            catch (Exception ex) 
+            {
+                throw new Exception("Session Expired, try logging in again", ex);
+            }
         }
     }
 }

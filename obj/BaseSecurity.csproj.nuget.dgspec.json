@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mathiasvoelcker/Desktop/Developer/C#/PokemonCalculator/PokemonSimulator/BaseSecurity/BaseSecurity.csproj": {}
+    "/Users/mathiasvoelcker/Desktop/Developer/Csharp/BaseSecurity/BaseSecurity/BaseSecurity.csproj": {}
   },
   "projects": {
-    "/Users/mathiasvoelcker/Desktop/Developer/C#/PokemonCalculator/PokemonSimulator/BaseSecurity/BaseSecurity.csproj": {
+    "/Users/mathiasvoelcker/Desktop/Developer/Csharp/BaseSecurity/BaseSecurity/BaseSecurity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mathiasvoelcker/Desktop/Developer/C#/PokemonCalculator/PokemonSimulator/BaseSecurity/BaseSecurity.csproj",
+        "projectUniqueName": "/Users/mathiasvoelcker/Desktop/Developer/Csharp/BaseSecurity/BaseSecurity/BaseSecurity.csproj",
         "projectName": "BaseSecurity",
-        "projectPath": "/Users/mathiasvoelcker/Desktop/Developer/C#/PokemonCalculator/PokemonSimulator/BaseSecurity/BaseSecurity.csproj",
+        "projectPath": "/Users/mathiasvoelcker/Desktop/Developer/Csharp/BaseSecurity/BaseSecurity/BaseSecurity.csproj",
         "packagesPath": "/Users/mathiasvoelcker/.nuget/packages/",
-        "outputPath": "/Users/mathiasvoelcker/Desktop/Developer/C#/PokemonCalculator/PokemonSimulator/BaseSecurity/obj/",
+        "outputPath": "/Users/mathiasvoelcker/Desktop/Developer/Csharp/BaseSecurity/BaseSecurity/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -20,13 +20,13 @@
           "/Users/mathiasvoelcker/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -37,21 +37,19 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Dapper": {
               "target": "Package",
               "version": "[1.60.6, )"
             },
+            "Extensions.MV": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[5.5.0, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -72,6 +70,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
         }
       }

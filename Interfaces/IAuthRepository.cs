@@ -12,8 +12,6 @@ namespace BaseSecurity.Interfaces
 
         string CreateToken(User user);
 
-        // Task<User> Login(string username, string password);
-
-        // Task<bool> UserExists(string username);
+        int GetUserIdFromToken(string token);
     }
 }
